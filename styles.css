@@ -1,10 +1,53 @@
 /* == TYPOGRAPHY == */
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/Inter.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'LexendDeca';
+  src: url('./fonts/LexendDeca.ttf') format('truetype');
+}
+
 * {
   color: white;
 }
 
 h1 {
+  font-family: 'Inter';
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: bold;
+  color: #fff;
   margin-bottom: 25px;
+}
+
+h1 span {
+  color: #AB5CDB;
+}
+
+.description {
+  font-family: 'Inter';
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+  opacity: 75%;
+}
+
+.stat-number {
+  font-family: 'Inter';
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.stat-label {
+  font-family: 'LexendDeca';
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 60%;
 }
 
 /* == MAIN == */
