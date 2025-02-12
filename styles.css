@@ -1,0 +1,25 @@
+/* == TYPOGRAPHY == */
+* {
+  color: white;
+}
+
+/* == MAIN == */
+main {
+  background-color: #0A0C1C;
+  height: 100vh;
+}
+
+/* == CARD == */
+.card {
+  background-color: #1B1937;
+  width: 1110px;
+}
+
+/* == LEFT == */
+
+
+/* == RIGHT == */
+
+img {
+  width: 540px;
+}
