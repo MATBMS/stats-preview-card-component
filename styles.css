@@ -3,20 +3,46 @@
   color: white;
 }
 
+h1 {
+  margin-bottom: 25px;
+}
+
 /* == MAIN == */
 main {
   background-color: #0A0C1C;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* == CARD == */
 .card {
+  display: flex;
+  justify-content: space-between;
   background-color: #1B1937;
   width: 1110px;
 }
 
-/* == LEFT == */
+.left,
+.rigth {
+  width: 50%;
+}
 
+/* == LEFT == */
+.left {
+  display: flex;
+  flex-direction: column;
+  padding: 71px;
+}
+
+/* == STATS == */
+
+.stats {
+  display: flex;
+  gap: 63px;
+  margin-top: 72px;
+}
 
 /* == RIGHT == */
 
