@@ -17,9 +17,11 @@ h1 {
   font-family: 'Inter';
   font-size: 36px;
   line-height: 44px;
+  letter-spacing: 1px;
   font-weight: bold;
   color: #fff;
   margin-bottom: 25px;
+  width: 400px;
 }
 
 h1 span {
@@ -32,6 +34,7 @@ h1 span {
   line-height: 25px;
   font-weight: 400;
   opacity: 75%;
+  width: 375px;
 }
 
 .stat-number {
@@ -76,7 +79,7 @@ main {
 .left {
   display: flex;
   flex-direction: column;
-  padding: 71px;
+  padding: 71px 71px 59px 72px;
 }
 
 /* == STATS == */
@@ -91,4 +94,5 @@ main {
 
 img {
   width: 540px;
+  height: 446px;
 }
