@@ -33,7 +33,7 @@ h1 span {
   font-size: 15px;
   line-height: 25px;
   font-weight: 400;
-  opacity: 75%;
+  opacity: 0.75;
   width: 375px;
 }
 
@@ -50,7 +50,7 @@ h1 span {
   font-weight: 400;
   letter-spacing: 1px;
   text-transform: uppercase;
-  opacity: 60%;
+  opacity: 0.6;
 }
 
 /* == MAIN == */
@@ -73,7 +73,7 @@ main {
 }
 
 .left,
-.rigth {
+.right {
   width: 50%;
 }
 
@@ -117,7 +117,6 @@ main {
   background-color: #AB5CDB;
 }
 
-/* == RESPONSIVE == */
 
 /* == RESPONSIVE == */
 @media (max-width: 375px) {
