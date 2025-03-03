@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/MATBMS/stats-preview-card-component)
-- Live Site URL: [Add live site URL here](https://matbms.github.io/stats-preview-card-component/)
+- Live Site URL: [Github Page](https://matbms.github.io/stats-preview-card-component/)
 
 ## My process
 
